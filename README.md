@@ -1,5 +1,8 @@
 # geo77_map
+
 ##Autor
 ###Carsten
-##Datum
-###3.12.2018
+
+##Bearbeitung am:
+-1.12.2018
+-2.12.2018
