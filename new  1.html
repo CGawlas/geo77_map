@@ -8,10 +8,11 @@
 <body>
 <h1>Geo77</h1>
 <h3>Übung7</h3>
-<h3>Neue 53980ß212####''#+eKarte<h3>
+<h3>Tübingen<h3>
 <div id="mapid" style="width: 600px; height: 400px; position: relative;"></div>
 <script>
-var mymap = L.map('mapid').setView([0, 0]).setZoom(3);var OSM_background =L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png').addTo(mymap);
+var mymap = L.map('mapid').setView([48.524, 9.046]).setZoom(14);var OSM_background =L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png').addTo(mymap);var markBota = L.marker([48.523549, 9.057546]).addTo(mymap);
+markBota.bindPopup("<p>This is the Botanical Garden</p>")
 </script>
 <h4>Autor:</h4><h6>Carsten</h6>
 <h4>Datum:</h4><h6>03.12.2018</h6>
